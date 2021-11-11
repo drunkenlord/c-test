@@ -11,7 +11,7 @@ architectures:
 
 apps:
   run-hello-world:
-     command: ./cprog-v1.0.0/a.out 
+     command: /snap/simple-cprog/current/cprog/a.out 
 
   
 parts:
