@@ -13,11 +13,9 @@ apps:
   curl:
   run-hello-world:
      command: cprog-v1.0.0/a.out 
-  hapis-server:
-    command: hapi-server-v1.0.10/hapi-server --logdir="/var/snap/hapi-combo11/current" --metadata_dir="/var/snap/hapi-combo11/current" 
 
   
 parts:
   cprog:
-    source: 
+    source: https://github.com/drunkenlord/c-test/releases/download/v1.0.0/cprog.tar.gz
     plugin: dump
