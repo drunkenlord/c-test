@@ -10,8 +10,8 @@ architectures:
   - build-on: amd64
 
 apps:
-  run-hello-world:
-     command: /snap/simple-cprog/current/cprog/a.out 
+  runhello:
+     command: /snap/simple-cprog/current/a.out
 
   
 parts:
