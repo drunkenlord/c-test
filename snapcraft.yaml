@@ -10,7 +10,6 @@ architectures:
   - build-on: amd64
 
 apps:
-  curl:
   run-hello-world:
      command: cprog-v1.0.0/a.out 
 
