@@ -1,6 +1,6 @@
 name: simple-py
 base: core18
-version: '1.0.1'
+version: '1.0.2'
 summary: Simple C Prog
 description: |
   Simple C Prog
@@ -16,5 +16,5 @@ apps:
   
 parts:
   cprog:
-    source: https://github.com/drunkenlord/c-test/releases/download/v1.0.1/cprog1.tar.gz
+    source: https://github.com/drunkenlord/c-test/releases/download/v1.0.2/cprog1.tar.gz
     plugin: dump
