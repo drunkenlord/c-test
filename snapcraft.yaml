@@ -1,6 +1,6 @@
 name: simple-py
 base: core18
-version: '1.0.0'
+version: '1.0.1'
 summary: Simple C Prog
 description: |
   Simple C Prog
@@ -11,7 +11,7 @@ architectures:
 
 apps:
   runhello:
-     command: /snap/simple-cprog/current/a.out
+     command: /snap/simple-py/current/python-bin
 
   
 parts:
